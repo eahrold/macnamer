@@ -27,11 +27,11 @@ DATABASES = {
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
 # although not all choices may be available on all operating systems.
 # In a Windows environment this must be set to your system time zone.
-TIME_ZONE = 'Europe/London'
+TIME_ZONE = 'America/Chicago'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-gb'
+LANGUAGE_CODE = 'en-us'
 
 SITE_ID = 1
 
@@ -59,11 +59,11 @@ MEDIA_URL = ''
 # Don't put anything in this directory yourself; store your static files
 # in apps' "static/" subdirectories and in STATICFILES_DIRS.
 # Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static_macnamer')
 
 # URL prefix for static files.
 # Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/static/'
+STATIC_URL = '/static_macnamer/'
 
 # URL prefix for admin static files -- CSS, JavaScript and images.
 # Make sure to use a trailing slash.
@@ -80,8 +80,8 @@ STATICFILES_DIRS = (
     os.path.join(PROJECT_DIR, 'site_static'),
 )
 
-LOGIN_URL='/login/'
-LOGIN_REDIRECT_URL='/'
+LOGIN_URL='/macnamer/login/'
+LOGIN_REDIRECT_URL='/macnamer'
 
 # List of finder classes that know how to find static files in
 # various locations.
