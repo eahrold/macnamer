@@ -43,7 +43,7 @@ def next_name(group):
         initial_name = ""
     return initial_name
     
-@login_required 
+@login_required(redirect_field_name='')
 def index(request):
     #show table with computer groups
     groups = ComputerGroup.objects.all()

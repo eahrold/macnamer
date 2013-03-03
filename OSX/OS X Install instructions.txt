@@ -11,3 +11,9 @@ the other primary change in this fork was to allow for multiple django-wsgi apps
 
 		Alias /static_macnamer/ /usr/local/www/macnamer_env/macnamer/static_macnamer/
 
+To install (on 10.8 at least)
+	place the httpd_macnamer.conf file in /Library/Server/Web/Config/apache2/
+	Edit the file and change the /usr/local/www/macnamer_env/macnamer/macnamer.wsgi
+	
+	place the com.aapps.macnamer.plist file in /Library/Server/Web/Config/apache2/webapps/
+	
