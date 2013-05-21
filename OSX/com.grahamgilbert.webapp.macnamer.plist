@@ -9,7 +9,7 @@
 	<key>launchKeys</key>
 	<array/>
 	<key>installationIndicatorFilePath</key>
-	<string>/usr/local/www/macnamer_env/macnamer/macnamer.wsgi</string>
+	<string>/path/to/your/macnamer_env/macnamer/macnamer.wsgi</string>
 	<key>includeFiles</key>
 	<array>
 		<string>/Library/Server/Web/Config/apache2/httpd_macnamer.conf</string>

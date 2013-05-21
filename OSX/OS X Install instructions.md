@@ -24,7 +24,7 @@ Now edit the httpd_macnamer.conf specifying the location of where you just place
 
 	/Library/Server/Web/Config/apache2/
 
-and finally edit the the com.aapps.macnamer.plist specifying the location of where you placed macnamer.wsgi, and place that file in
+and finally edit the the com.grahamgilbert.macnamer.plist specifying the location of where you placed macnamer.wsgi, and place that file in
 
 	/Library/Server/Web/Config/apache2/webapps/
 
